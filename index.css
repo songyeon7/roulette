@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'SBAggroM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+#app {
+    text-align: center;
+}
+.roulette-outer {
+    position: relative;
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background: #74b9ff;
+}
+.roulette-outer > .roulette {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    right: 3%;
+    bottom: 3%;
+    border-radius: 50%;
+    /* border: 2px solid blue; */
+}
+.roulette-outer > .roulette-pin {
+    position: absolute;
+    /* top: 3%; */
+    top:0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 5px 0 5px;
+    border-color: #0935e3 transparent transparent transparent;
+}
